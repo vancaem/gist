@@ -1,0 +1,10 @@
+After install zsh 
+
+- brew update
+- brew install nvm
+- mkdir ~/.nvm
+
+after in your ~/.zshrc or in .bash_profile if your use bash shell: 
+
+    export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
